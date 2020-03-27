@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
 	<string name="tv_text">請輸入姓名以開始</string>
+	<string name="ed_name">請輸入姓名</string>
 	<string name="btn_scissor">剪刀</string>
 	<string name="btn_stone">石頭</string>
 	<string name="btn_paper">布</string>

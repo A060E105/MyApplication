@@ -15,7 +15,7 @@
             android:id="@+id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="請輸入姓名以開始遊戲"
+            android:text="@string/tv_text"
             android:textColor="#000000"
             android:textSize="24sp" />
 
@@ -24,11 +24,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="請輸入姓名"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="@string/ed_name"
+            android:inputType="textPersonName" />
 
         <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -38,26 +38,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="剪刀" />
+                android:text="@string/btn_scissor" />
 
             <RadioButton
                 android:id="@+id/btn_stone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="石頭" />
+                android:text="@string/btn_stone" />
 
             <RadioButton
                 android:id="@+id/btn_paper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="布" />
+                android:text="@string/btn_paper" />
         </RadioGroup>
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="猜拳" />
+            android:text="@string/button" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,28 +69,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="姓名" />
+                android:text="@string/tv_name" />
 
             <TextView
                 android:id="@+id/tv_winner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="勝利者" />
+                android:text="@string/tv_winner" />
 
             <TextView
                 android:id="@+id/tv_mmora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="我方出拳" />
+                android:text="@string/tv_mmora" />
 
             <TextView
                 android:id="@+id/tv_cmora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="電腦出拳" />
+                android:text="@string/tv_cmora" />
         </LinearLayout>
     </LinearLayout>
 
