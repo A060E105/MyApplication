@@ -5,7 +5,7 @@
 	<string name="btn_scissor">剪刀</string>
 	<string name="btn_stone">石頭</string>
 	<string name="btn_paper">布</string>
-	<string name="button">猜拳</string>
+	<string name="btn_mora">猜拳</string>
 	<string name="tv_name">姓名</string>
 	<string name="tv_winner">勝利者</string>
 	<string name="tv_mmora">我方出拳</string>
